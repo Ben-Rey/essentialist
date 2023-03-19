@@ -38,4 +38,17 @@ describe("fizzbuzz", () => {
     it("should return Buzz when 20 is passed", () => {
         expect(fizzbuzz(20)).toBe("Buzz");
     });
+
+    // multiple of 3 and 5
+    it("should return FizzBuzz when 15 is passed", () => {
+        expect(fizzbuzz(15)).toBe("FizzBuzz");
+    });
+
+    it("should return FizzBuzz when 30 is passed", () => {
+        expect(fizzbuzz(30)).toBe("FizzBuzz");
+    });
+
+    it("should return FizzBuzz when 45 is passed", () => {
+        expect(fizzbuzz(45)).toBe("FizzBuzz");
+    });
 });
