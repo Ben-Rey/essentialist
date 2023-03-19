@@ -25,4 +25,17 @@ describe("fizzbuzz", () => {
     it("should return Fizz when 12 is passed", () => {
         expect(fizzbuzz(12)).toBe("Fizz");
     });
+
+    // multiple of 5
+    it("should return Buzz when 5 is passed", () => {
+        expect(fizzbuzz(5)).toBe("Buzz");
+    });
+
+    it("should return Buzz when 10 is passed", () => {
+        expect(fizzbuzz(10)).toBe("Buzz");
+    });
+
+    it("should return Buzz when 20 is passed", () => {
+        expect(fizzbuzz(20)).toBe("Buzz");
+    });
 });
