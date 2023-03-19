@@ -1,8 +1,6 @@
 export function fizzbuzz(nMin: number, nMax: number): string {
     const result = [];
-
     while (nMin <= nMax) result.push(evaluateNumber(nMin++));
-
     return result.join("");
 }
 
