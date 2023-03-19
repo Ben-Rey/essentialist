@@ -13,7 +13,16 @@ describe("fizzbuzz", () => {
         expect(fizzbuzz(2)).toBe("2");
     });
 
+    // multiple of 3
     it("should return Fizz when 3 is passed", () => {
         expect(fizzbuzz(3)).toBe("Fizz");
+    });
+
+    it("should return Fizz when 6 is passed", () => {
+        expect(fizzbuzz(6)).toBe("Fizz");
+    });
+
+    it("should return Fizz when 12 is passed", () => {
+        expect(fizzbuzz(12)).toBe("Fizz");
     });
 });
