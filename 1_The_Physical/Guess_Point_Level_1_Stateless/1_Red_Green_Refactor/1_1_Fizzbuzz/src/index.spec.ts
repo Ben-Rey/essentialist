@@ -53,7 +53,7 @@ describe("fizzbuzz", () => {
     });
 
     // 1 and 2
-    // it("should return 1,2 when 1,2 is passed", () => {
-    //     expect(fizzbuzz(1, 2)).toBe("12");
-    // });
+    it("should return 12 when 1 and 2 is passed", () => {
+        expect(fizzbuzz(1, 2)).toBe("12");
+    });
 });
