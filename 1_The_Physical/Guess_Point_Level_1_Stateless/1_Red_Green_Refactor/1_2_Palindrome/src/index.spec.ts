@@ -28,5 +28,9 @@ describe('palindrome checker', () => {
     it('should return false for "abb"', () => {
         expect(isPalindrome('abb')).toBe(false)
     })
+
+    it('should return true for "Abba"', () => {
+        expect(isPalindrome('Abba')).toBe(true)
+    })
 })
 
