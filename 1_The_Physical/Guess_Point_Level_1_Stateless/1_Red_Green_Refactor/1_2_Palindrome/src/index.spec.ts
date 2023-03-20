@@ -36,5 +36,9 @@ describe('palindrome checker', () => {
     it('should return true for "Was It A Rat I Saw" (ignoring spaces)', () => {
         expect(isPalindrome('Was It A Rat I Saw')).toBe(true)
     })
+
+    it('should return true for "Never Odd or Even" (ignoring spaces and case)', () => {
+        expect(isPalindrome('Was It A Rat I Saw')).toBe(true)
+    })
 })
 
