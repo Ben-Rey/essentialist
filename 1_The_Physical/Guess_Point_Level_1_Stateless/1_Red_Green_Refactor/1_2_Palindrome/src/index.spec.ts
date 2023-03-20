@@ -32,5 +32,9 @@ describe('palindrome checker', () => {
     it('should return true for "Abba"', () => {
         expect(isPalindrome('Abba')).toBe(true)
     })
+
+    it('should return true for "Was It A Rat I Saw" (ignoring spaces)', () => {
+        expect(isPalindrome('Was It A Rat I Saw')).toBe(true)
+    })
 })
 
